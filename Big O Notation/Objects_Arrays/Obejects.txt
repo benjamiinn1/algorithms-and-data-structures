@@ -1,0 +1,17 @@
+key: value
+
+pro: very fast
+con: no order in objects
+
+Objects provide very fast results when order is not necessary
+
+Search: O(n)
+Access: O(1)
+Insert: O(1)
+Remove: O(1)
+
+Object Methods
+Object.keys: O(n)
+Object.values: O(n)
+Object.entries: O(n)
+hasOwnProperty: O(1) - checks to see if key exists

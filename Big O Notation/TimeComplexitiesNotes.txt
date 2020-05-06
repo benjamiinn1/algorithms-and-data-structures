@@ -1,0 +1,8 @@
+TIME COMPLEXITY = analyze runtime of an algorithm as the size of inputs increases
+
+An algorithm is O(f(n)) if the number of simple operations the computer has to do is eventually less than a constant times f(n), as n increases
+
+USUALLY THESE ARE TRUE:
+1. variable assignment and arithmetic operations are constant
+2. accessing elements in an array are constant.
+3. looping increases the complexity for length of n.

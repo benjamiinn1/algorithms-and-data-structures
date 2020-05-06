@@ -1,0 +1,7 @@
+SPACE COMPLEXITY = memory required to run code in algorithm
+
+auxiliary space complexity = space required by algorithm only. DOES NOT INCLUDE INPUT SPACE.
+(we really only care about auxiliary space complexity)
+
+primitives are usually constant. Ex(bool, number, null) O(1)
+Strings/Arrays/Objects space required grows based on length/number of keys O(n)

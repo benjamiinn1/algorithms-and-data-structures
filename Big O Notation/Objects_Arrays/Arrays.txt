@@ -1,0 +1,15 @@
+list
+
+pro: order
+cons: slow
+
+should really only be used when order is necessary.
+
+Search: O(n)
+Access: O(1) - shortcut to each element. arr[10000000] (jumps directly to 10000000 position)
+Insert: arr.push O(1) simple, constant time. (when adding anywhere besides end, index must change for everything. O(n))
+Remove: arr.pop O(1) simple, constant time. (when removing anywhere besides end, index must change for everything. O(n))
+
+Array Methods
+anything that does not require to re-index O(1) Ex(push, pop)
+anything that requires reindexing O(n) Ex(shift, unshift, slice, forEach, map, filter)

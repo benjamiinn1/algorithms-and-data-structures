@@ -1,0 +1,17 @@
+Big O Notation is used to analyze the performance of an algorithm
+
+TIME COMPLEXITY = analyze runtime of an algorithm as the size of inputs increases
+SPACE COMPLEXITY = memory required to run code in algorithm
+
+linear (f(n) = n) (ok)
+quadratic (f(n) = n^2) (usually pretty bad)
+constant (f(n) = 1) (usually the best)
+
+In bigO notation, constants do not matter (when dealing with huge numbers constants mean very little)
+O(5) > O(1)
+O(2n) > O(n)
+O(10n^2) > O(n^2)
+
+In bigO notation, we only care about the largest term.
+O(n + 1) > O(n)
+O(3n^2 + 2n + 1) > O(n^2)
