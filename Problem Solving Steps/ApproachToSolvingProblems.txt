@@ -1,0 +1,26 @@
+ALGORITHM = set of steps to accomplish a certain task
+(almost everything revolves around algorithms)
+
+step 1: understand problem
+  - restate the problem in your own words
+  - what are the inputs
+  - what should the outputs be
+  - questions about edge cases
+  - questions about null data
+  - do I have enough information to solve the problem
+  - how should I label the data
+
+step 2: concrete examples
+  - make simple examples and then create more complex examples of the function
+
+step 3: break it down
+  - write sudo code comments for what you are trying to create.
+
+step 4: solve or simplify
+  -  Fill in the blanks of what you know and can easily create.
+  - If not sure how to do a part, do not stick on it. finish the rest.
+  - talk through the things you understand. If stuck, simplify the problem and make it work, then go back to larger problem.
+
+step 5: look bakc and refactor
+  - determine if your code solves the problem in an effective way.
+  - look at alternative solutions and determine if they are a better way.
