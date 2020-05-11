@@ -31,9 +31,9 @@ function same(array1, array2) {
   // loop through object1 and see if key^2  is in object2 and values are equal
   for (key in obj1) {
     // if key^2 is not in obj2, return false
-    if (!(key ** 2 in obj2)) {
-      return false;
-    }
+    // if (!(key ** 2 in obj2)) {
+    //   return false;
+    // }
     // if the count of key^2 is not the same as count of key, return false
     if (obj2[key ** 2] !== obj1[key]) {
       return false;
@@ -44,4 +44,4 @@ function same(array1, array2) {
   return true;
 }
 
-console.log(same([2, 4, 5], [4, 16, 25]));
+console.log(same([2, 4, 5], [4, 16, 26]));
