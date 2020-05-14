@@ -11,12 +11,13 @@
 // ('test', 'testt') === false
 
 function validAnagram(str1, str2) {
-  let obj1 = {};
-  let obj2 = {};
   // check length of each string
   if (str1.length !== str2.length) {
     return false;
   }
+
+  let obj1 = {};
+  let obj2 = {};
 
   // loop through and build an object: key = char value = count
   for (let char of str1) {
