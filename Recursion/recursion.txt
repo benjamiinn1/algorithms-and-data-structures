@@ -1,0 +1,7 @@
+How do recursive functions work?
+They invoke the same function with a different input until it reaches a base case
+
+Two essential parts of a recursive function
+Base Case: the condition when the recursion ends.
+Different Input: a recursive function needs a different input each time.
+
