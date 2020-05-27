@@ -19,4 +19,10 @@ function fib(num) {
   return total;
 }
 
-console.log(fib(28));
+// THIS IS THE ANSWER SOLUTION. WILL LOOK BACK TO UNDERSTAND THIS ONE
+function fib(num) {
+  if (num <= 2) return 1;
+  return fib(num - 1) + fib(num - 2);
+}
+
+console.log(fib(5));
